@@ -21,7 +21,7 @@ core-foundation-sys = "^0.8.1"
 core-graphics = "^0.22.1"
 ddc = "^0.2.0"
 io-kit-sys = "0.2.0"
-mach = "^0.3.2"
+mach2 = "^0.4.0"
 thiserror = "^1"
 
 [badges]
