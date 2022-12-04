@@ -1,4 +1,3 @@
-extern crate ddc_macos;
 use ddc::Ddc;
 
 #[test]

@@ -3,9 +3,6 @@
 //! # Example
 //!
 //! ```rust,no_run
-//! extern crate ddc;
-//! extern crate ddc_macos;
-//!
 //! # fn main() {
 //! use ddc::Ddc;
 //! use ddc_macos::Monitor;
