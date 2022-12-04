@@ -11,6 +11,10 @@ license = "MIT"
 keywords = ["ddc", "mccs", "vcp", "vesa", "macos"]
 categories = ["hardware-support", "os::macos-apis"]
 
+[package.metadata.docs.rs]
+default-target = "x86_64-apple-darwin"
+targets = ["x86_64-apple-darwin", "i686-apple-darwin", "aarch64-apple-darwin"]
+
 [dependencies]
 core-foundation = "^0.9.1"
 core-foundation-sys = "^0.8.1"
