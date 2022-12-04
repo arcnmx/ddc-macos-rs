@@ -14,7 +14,10 @@ in {
   };
   jobs = {
     macos = {
-      tasks.build.inputs = singleton checks.test;
+      tasks = {
+        build.inputs = singleton checks.test;
+        fmt.inputs = singleton checks.rustfmt;
+      };
       system = "x86_64-darwin";
     };
   };

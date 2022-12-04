@@ -77,6 +77,10 @@
       };
     } { };
     checks = {
+      rustfmt = { rust'builders, source }: rust'builders.check-rustfmt {
+        src = source;
+        config = ./rustfmt.toml;
+      };
       test = { outputs'devShells'plain, rustPlatform, source }: rustPlatform.buildRustPackage {
         pname = self.lib.crate.package.name;
         inherit (self.lib.crate) version cargoLock;
