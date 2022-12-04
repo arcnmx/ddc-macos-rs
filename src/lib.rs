@@ -1,4 +1,4 @@
-#![doc(html_root_url = "https://docs.rs/ddc-macos/0.2.0/")]
+#![doc(html_root_url = "https://docs.rs/ddc-macos/0.2.1/")]
 
 //! Implementation of DDC/CI traits on MacOS.
 //!
