@@ -13,7 +13,7 @@ use ddc::{
 use io_kit_sys::ret::kIOReturnSuccess;
 use io_kit_sys::types::{io_service_t, kMillisecondScale, IOItemCount};
 use io_kit_sys::IORegistryEntryCreateCFProperties;
-use mach::kern_return::{kern_return_t, KERN_FAILURE};
+use mach2::kern_return::{kern_return_t, KERN_FAILURE};
 use std::{fmt, iter};
 use thiserror::Error;
 
