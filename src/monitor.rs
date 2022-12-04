@@ -1,6 +1,3 @@
-#![deny(missing_docs)]
-#![doc(html_root_url = "http://haimgel.github.io/ddc-macos-rs/")]
-
 use crate::iokit::display::*;
 use crate::iokit::io2c_interface::*;
 use crate::iokit::wrappers::*;
