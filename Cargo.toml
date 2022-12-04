@@ -1,10 +1,10 @@
 [package]
 name = "ddc-macos"
-version = "0.2.0"
+version = "0.2.0" # keep in sync with html_root_url
 authors = ["Haim Gelfenbeyn <haim@g8n.me>"]
 edition = "2018"
 description = "DDC/CI monitor control on MacOS"
-documentation = "http://haimgel.github.io/ddc-macos-rs/ddc_macos"
+documentation = "https://docs.rs/ddc-macos"
 readme = "README.md"
 repository = "https://github.com/haimgel/ddc-macos-rs"
 license = "MIT"
