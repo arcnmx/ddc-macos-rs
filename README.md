@@ -20,7 +20,7 @@ The code in this crate is heavily inspired by the excellent work done by [ddcctl
 [build-badge]: https://github.com/haimgel/ddc-macos-rs/workflows/build/badge.svg?style=flat-square
 [cargo]: https://crates.io/crates/ddc-macos
 [cargo-badge]: https://img.shields.io/crates/v/ddc-macos.svg?style=flat-square
-[docs]: http://haimgel.github.io/ddc-macos-rs/
+[docs]: https://docs.rs/ddc-macos
 [docs-badge]: https://img.shields.io/badge/API-docs-blue.svg?style=flat-square
 [license]: https://github.com/haimgel/ddc-macos-rs/blob/master/LICENSE
 [license-badge]: https://img.shields.io/github/license/haimgel/ddc-macos-rs

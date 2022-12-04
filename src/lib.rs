@@ -1,5 +1,5 @@
 #![deny(missing_docs)]
-#![doc(html_root_url = "http://haimgel.github.io/ddc-macos-rs/")]
+#![doc(html_root_url = "https://docs.rs/ddc-macos/0.2.0/")]
 
 //! Implementation of DDC/CI traits on MacOS.
 //!
